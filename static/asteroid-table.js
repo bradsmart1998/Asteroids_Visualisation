@@ -1,13 +1,5 @@
 console.log("asteroid-table.js");
 
-function numberWithCommas(x) {
-    x = x.toString();
-    var pattern = /(-?\d+)(\d{3})/;
-    while (pattern.test(x))
-        x = x.replace(pattern, "$1,$2");
-    return x;
-}
-
 function init() {
 
     d3.select("#asteroidProfileTitle").text("ASTEROID PROFILE - ASTEROID:");
@@ -43,8 +35,8 @@ d3.json(`/api/asteroids_v1`).then(function(data) {
         if (asteroidData[i].name === selAsteroid) {
 
             d3.select("#asteroidProfileTitle").text(`ASTEROID PROFILE - ${asteroidData[i].name}`);
-            d3.select("#milesTable").text(`${numberWithCommas(asteroidData[i].miss_distance_miles)} mi`);
-            d3.select("#velocityTable").text(`${numberWithCommas(asteroidData[i].velocity_mph)}`);
+            d3.select("#milesTable").text(`${(asteroidData[i].miss_distance_miles)} mi`);
+            d3.select("#velocityTable").text(`${(asteroidData[i].velocity_mph)}`);
             d3.select("#magnitudeTable").text(`${asteroidData[i].magnitude}`);
             d3.select("#kilometresTable").text(`${asteroidData[i].miss_distance_km}`);
         }

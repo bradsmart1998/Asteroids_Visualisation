@@ -9,6 +9,19 @@
         <!-- <link rel="stylesheet" href="../static/css/style.css"> -->
         <script src="https://d3js.org/d3.v7.min.js"></script>
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <style>
+            .chart-container {
+                            width: 80%;
+                            height: 480px;
+                            margin: 0 auto;
+                                }
+        
+            .pie-chart-container {
+                            height: 360px;
+                            width: 360px;
+                            float: left;
+                            }
+          </style>
     </head>
 <body>
 <!-- Header & Navbar -->
@@ -54,8 +67,9 @@
     <div class="container mt-auto">
         <div id="hbar-plot"></div>
     </div>
-    <!-- <div class="container mt-auto">
-        <div id="scatter-plot"></div> -->
+    <div class="pie-chart-container">
+        <canvas id="pie-chartcanvas-1"  width="200" height="200"></canvas>
+      </div>
     </div>
     <div class="container" style="width:800px;">
         <label class="col-xs-3 control-label"><strong>2.</strong>&nbsp;Select the Asteroid you would like to get data:</label>
@@ -93,7 +107,12 @@
           </table>
     </div> 
     
-    <script src="../static/ast.js"></script>
+   
     <script src="../static/asteroid-table.js"></script>
+    <script src="../Pie Chart File/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="../static/ast.js"></script>
+    <script src="../static/pie.js"></script>
+    
 </body>
 </html>

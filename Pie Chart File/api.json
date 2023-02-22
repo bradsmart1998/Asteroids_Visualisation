@@ -1,0 +1,19 @@
+True 65
+False 55
+
+
+
+
+api/pie-chart
+
+
+[
+    {
+     "label":"True",
+     "Amount":65
+    },
+    {
+     "label":"False",
+     "Amount":55
+    },
+]
