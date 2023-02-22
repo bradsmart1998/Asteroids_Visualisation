@@ -49,5 +49,7 @@ Data was then loaded into a relational database for storage. ‘PGAdmin 4’ was
 
 A localhost connection to a PostgreSQL server was created and a connection made to it. The connection was made via an engine on Jupyter Notebook that could talk to the database.
 
+![image](https://user-images.githubusercontent.com/115423610/220764184-15be7380-d9db-45be-b4a5-5530118f7c01.png)
+
 
 
