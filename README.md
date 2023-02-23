@@ -54,9 +54,25 @@ A localhost connection to a PostgreSQL server was created and a connection made 
 
 #Analyses and Visualizations
 
-We read in our json file using the D3 Library and Chart.js. 
+We read in our json file using the D3 Library. 
+
+![image](https://user-images.githubusercontent.com/115423610/220966990-c215700f-defb-4d05-b5ed-861d86b561e7.png)
+
+
+
+Created asteroid_app and Import Flask, jsonify and render_template. 
+
+![image](https://user-images.githubusercontent.com/115423610/220965545-4ba6ac27-1cce-4e75-9e0d-81e92e19df0d.png)
+
+
+We created connection to local database and set app name as "app". 
+
+![image](https://user-images.githubusercontent.com/115423610/220965723-a2e03eac-3423-40d2-b359-0c991fdaefa3.png)
+![image](https://user-images.githubusercontent.com/115423610/220965788-b730e977-c2db-4b90-8db1-147c051bc370.png)
+
+We used Plotly Library and Chart.js Library to do our visualisation.
 
 Create a  Dash App that displayes the analysed data in the form of interactive visualisations that can be selected by velocity, miss distance (miles) , miss distance (km) , and magnitude .
 
-The Dash App also displays asteroid profile table and pie chart 
+The Dash App also displays asteroid profile table and pie chart (the proprotion of potentially hazardous asteroids). 
 
