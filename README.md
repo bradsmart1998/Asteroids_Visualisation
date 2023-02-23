@@ -52,7 +52,7 @@ A localhost connection to a PostgreSQL server was created and a connection made 
 ![image](https://user-images.githubusercontent.com/115423610/220764184-15be7380-d9db-45be-b4a5-5530118f7c01.png)
 
 
-#Analyses and Visualizations
+# Analyses and Visualizations
 
 We read in our json file using the D3 Library. 
 
