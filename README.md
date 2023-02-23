@@ -74,5 +74,14 @@ We used Plotly Library and Chart.js Library to do our visualisation.
 
 Create a  Dash App that displayes the analysed data in the form of interactive visualisations that can be selected by velocity, miss distance (miles) , miss distance (km) , and magnitude .
 
+![image](https://user-images.githubusercontent.com/115423610/221004092-0fffa4d7-1ac0-40d5-be26-7c1b7ca6a613.png)
+
+
 The Dash App also displays asteroid profile table and pie chart (the proprotion of potentially hazardous asteroids). 
+
+![image](https://user-images.githubusercontent.com/115423610/221004121-06278afd-290b-4c50-b452-86fcfd06ae0c.png)
+
+
+![image](https://user-images.githubusercontent.com/115423610/221004143-8bb26f9f-de8e-4944-b262-80aff4788fb9.png)
+
 
