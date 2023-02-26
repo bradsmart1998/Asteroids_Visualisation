@@ -43,6 +43,10 @@ We also added new columns.
 
 ![image](https://user-images.githubusercontent.com/115423610/220763311-5ea386f3-a79f-43fc-b3bd-fed276c338c5.png)
 
+In the cleaning phase we also found that the data that we had was all in objects instead of the corrent numeric results. To fix this we converted the columns to numeric values so that these result could be analysed. In our final dataframe we would have had 11 columns for our dataframe.
+
+![image](https://user-images.githubusercontent.com/114998403/221424041-86ad1a71-5fcf-4196-b503-cb7cd3e14c4a.png)
+
 In the next step we created final dataframe. 
 
 ![image](https://user-images.githubusercontent.com/115423610/220763488-f88d34e5-884b-4964-afac-ae3637cfb544.png)
