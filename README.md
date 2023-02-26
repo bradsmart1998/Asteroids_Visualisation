@@ -63,6 +63,22 @@ This then loaded our data into the database. Which we could then link to our Pyt
 
 ![image](https://user-images.githubusercontent.com/114998403/221425080-6f363fac-8473-46e3-9f58-5255ce001c4a.png)
 
+# Python Flask API
+
+We used a Python Flask API to power our project. To start this, we imported the dependencies and connected this to our local database. 
+
+[image](https://user-images.githubusercontent.com/114998403/221425489-93bd9293-882e-476c-adfe-1493da49d8b2.png)
+
+![image](https://user-images.githubusercontent.com/114998403/221425522-89ba3833-2d06-45c3-bddd-cfca869ded6a.png)
+
+We then created our first API so that we could call our data when creating our dashboard. We used this api when creating our graph and table.
+
+![image](https://user-images.githubusercontent.com/114998403/221425727-4b5adf36-a2b2-4d82-8f25-aa20ec79bb6d.png)
+
+As mentioned in our project proposal, we wanted to see how many asteroids were potentially hazardous during this week period. To do this we used querys on PGAdmin4 to count the number of true/ false values under the hazardous column. We then created a new table before adding this data to it. We then created a second api call so that we could get this data and then use it to create a visualisation. 
+
+![image](https://user-images.githubusercontent.com/114998403/221426555-8e2f18e3-9cea-4ffd-b390-b9178e026fb2.png)
+
 # Analyses and Visualizations
 
 We read in our json file using the D3 Library. 
