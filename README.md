@@ -47,7 +47,7 @@ In the cleaning phase we also found that the data that we had was all in objects
 
 ![image](https://user-images.githubusercontent.com/114998403/221424041-86ad1a71-5fcf-4196-b503-cb7cd3e14c4a.png)
 
-In the next step we created final dataframe. 
+Finally, we created our final dataframe by selecting the rows that we want and re-naming the columns that we had. This was now ready to be loaded and housed in a database.
 
 ![image](https://user-images.githubusercontent.com/115423610/220763488-f88d34e5-884b-4964-afac-ae3637cfb544.png)
 
