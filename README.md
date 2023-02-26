@@ -82,9 +82,9 @@ As mentioned in our project proposal, we wanted to see how many asteroids were p
 
 ![image](https://user-images.githubusercontent.com/114998403/221426555-8e2f18e3-9cea-4ffd-b390-b9178e026fb2.png)
 
-# Analyses and Visualizations
+# Analysis and Visualizations
 
-We read in our json file using the D3 Library. 
+We used HTML to create our dashboard and we used JavaScript as the language to create our visualisations. 
 
 ![image](https://user-images.githubusercontent.com/115423610/220966990-c215700f-defb-4d05-b5ed-861d86b561e7.png)
 
