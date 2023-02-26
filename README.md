@@ -84,18 +84,47 @@ As mentioned in our project proposal, we wanted to see how many asteroids were p
 
 # Analysis and Visualizations
 
-We used HTML to create our dashboard and we used JavaScript as the language to create our visualisations.
+We used HTML to create our dashboard and we used JavaScript as the language to create our visualisations. We called in our javascript files from our static folder so to create our visualisations.
+
+![image](https://user-images.githubusercontent.com/114998403/221426946-c623fefd-74a0-4622-bf98-41ef9214a0c7.png)
+
+The first chart that we wanted to create was a horizontal bar chart to visualise the data of asteroids over a couple of different variables. we chose to look at several variables, from miss distance (how close the asteroid was to earth) in km and miles, magnitude (measure of the brightness) and velocity.
+
+We wanted the users of our dashboard to be able to interact with this chart by selecting which metric they would like to see as well as the kind and amount of results they wish to see. We have created a dropdown to be able to change the metric of the asteroid and the amount of results you want to see, whethere that would be top 5/10 or bottom 5/10.
+
+![image](https://user-images.githubusercontent.com/114998403/221427299-1ad52d15-2919-4f16-8914-30aa0b849fdc.png)
+
+We used the plotly library to create this chart
+
+![image](https://user-images.githubusercontent.com/114998403/221427878-1b0693c3-0813-4b5c-8eb1-61dbe4f2ce34.png)
+
+Another visualisation that we created was to be able to get the information from our horizontal bar chart and store it on to a table for each individual asteroid. This can be used by the user to select the asteroid that they wish to view in the dropdown and the table will populate with the data from the chosen asteroid. 
+
+![image](https://user-images.githubusercontent.com/114998403/221428010-529dbb3b-cace-4c9b-a590-66f68629f44a.png)
+
+We used the d3 library to create this table. 
+
+![image](https://user-images.githubusercontent.com/114998403/221428065-474f873f-ce34-4159-9efc-43db0ffb43f2.png)
+
+The final thing that we wanted to visualise was the amount of potentally hazardous asteroids that appeared within our start and end period. The data was in a boolean column on our database. we used the count and grouby querys on SQL to get this data. Then this was added to a table before being called by our flask application.
+
+![image](https://user-images.githubusercontent.com/114998403/221428379-4724eadb-1319-4249-9e9e-e50baac58a21.png)
+
+We decided to create a pie chart to showcase this data as it would show the proportion of true and false values. We found that there were 8 potentially hazardous asteroids over the data period. If you hover over the pie chart it will show you the number of values.
+
+![image](https://user-images.githubusercontent.com/114998403/221428650-7010d0f3-b90d-4531-9268-89e574ec3ee0.png)
+
+
+We have created this Pie chart using the Chart.js library in JavaScript
 
 
 
-We created connection to local database and set app name as "app". 
 
-![image](https://user-images.githubusercontent.com/115423610/220965723-a2e03eac-3423-40d2-b359-0c991fdaefa3.png)
-![image](https://user-images.githubusercontent.com/115423610/220965788-b730e977-c2db-4b90-8db1-147c051bc370.png)
 
-We used Plotly Library and Chart.js Library to do our visualisation.
 
-Create a  Dash App that displayes the analysed data in the form of interactive visualisations that can be selected by velocity, miss distance (miles) , miss distance (km) , and magnitude .
+
+
+
 
 ![image](https://user-images.githubusercontent.com/115423610/221004092-0fffa4d7-1ac0-40d5-be26-7c1b7ca6a613.png)
 
