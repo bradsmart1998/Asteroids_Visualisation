@@ -1,6 +1,6 @@
 # Project_3_Asteroid
 
-Repository to store our Project 3 challenge, the data we will be looking at here will be using the NASA API to extract date from asteriods
+Repository to store our Project 3 challenge, the data we will be looking at here will be using the NASA API to extract data from asteriods that were observed by NeoWs (Near Earth Object Web Service) between 01/01/2023 - 08/01/2023. 
 
 
 ![image](https://user-images.githubusercontent.com/115423610/220757716-0e521fab-06d6-4c5d-8ab0-c9140a0f9280.png)
@@ -8,30 +8,34 @@ Repository to store our Project 3 challenge, the data we will be looking at here
 
 # Project proposal
 
-The project focuses on the date from asteriods. Data has been extraxted from :
+The project focuses on the data from asteriods. The data has been extracted from :
 
 https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-14&api_key=DEMO_KEY
+
+For this project we wanted to explore and visualise the variables of the asteroids and use this to better understand their behaviour. We want to create a dashboard where users will be able to see an interactive visualisations on an asteroid as well as be able to access data for a specific asteroid by searching for it by name. We also wish ton explore how many asteroids that are observed by the NeoWs could be potentially hazardous.
 
 The data transformation process will be performed using Jupyter Notebook, and then it will be loaded into a PostgreSQL database.
 The project is powered by a Python Flask API and includes HTML/CSS, JavaScript. 
 
 # Sources of Data
 
+The data the we obtained came from the NASA Open API's. All the data is from the NASA JPL Asteroid team.
+
 https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-14&api_key=DEMO_KEY
 
 # Data Extraction
 
-As mentioned above, the date are selected from NASA API and converted to Pandas DataFrame. 
+As mentioned above, the data is selected from NASA API and converted to Pandas DataFrame. This API call had 3 query parameters: a start date, a end date and a API key. We pulled the whole JSON from the API call and stored it into a dataframe before cleaning with Pandas. We had obtained 123 unique results.
 
 ![image](https://user-images.githubusercontent.com/115423610/220761730-9971eb07-14a4-46af-95a6-adb18ca40c8a.png)
 
-The Dataframe is named as asteroid_df. 
+The Dataframe is named as asteroid_df.
 
 ![image](https://user-images.githubusercontent.com/115423610/220762069-5057aaa0-b06f-4cf9-848e-b99da8c9ee25.png)
 
 # Transformation
 
-Nexted we looked through the Pandas DataFrame and the data was cleaned. The required columns were selected and renamed.
+Next, we looked through the Pandas DataFrame and cleaned the data. We faced an issue as some of the key data that we wanted to extract was located in a list in a column. We then had to take this data out of this list and append it to there own columns before deleted the old one. There were no N/A values in the dataset so we didn't lose any of our unique results. We changed some of the column headers to make it easier to read the dataframe.
 
 ![image](https://user-images.githubusercontent.com/115423610/220762601-38c9e601-66a8-4b09-b668-14e33d4975f7.png)
 
