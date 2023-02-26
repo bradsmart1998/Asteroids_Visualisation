@@ -53,12 +53,15 @@ Finally, we created our final dataframe by selecting the rows that we want and r
 
 # Loading of the Data
 
-Data was then loaded into a relational database for storage. ‘PGAdmin 4’ was used to create PostgreSQL tables that included the headers from the dataframe.
+Data was then loaded into a relational database for storage. ‘PGAdmin 4’ was used to create a PostgreSQL database, we then created the table that included the headers from the dataframe which was then ready for the data to be loaded into it. 
 
 A localhost connection to a PostgreSQL server was created and a connection made to it. The connection was made via an engine on Jupyter Notebook that could talk to the database.
 
 ![image](https://user-images.githubusercontent.com/115423610/220764184-15be7380-d9db-45be-b4a5-5530118f7c01.png)
 
+This then loaded our data into the database. Which we could then link to our Python Flask API.
+
+![image](https://user-images.githubusercontent.com/114998403/221425080-6f363fac-8473-46e3-9f58-5255ce001c4a.png)
 
 # Analyses and Visualizations
 
