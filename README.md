@@ -84,15 +84,8 @@ As mentioned in our project proposal, we wanted to see how many asteroids were p
 
 # Analysis and Visualizations
 
-We used HTML to create our dashboard and we used JavaScript as the language to create our visualisations. 
+We used HTML to create our dashboard and we used JavaScript as the language to create our visualisations.
 
-![image](https://user-images.githubusercontent.com/115423610/220966990-c215700f-defb-4d05-b5ed-861d86b561e7.png)
-
-
-
-Created asteroid_app and Import Flask, jsonify and render_template. 
-
-![image](https://user-images.githubusercontent.com/115423610/220965545-4ba6ac27-1cce-4e75-9e0d-81e92e19df0d.png)
 
 
 We created connection to local database and set app name as "app". 
