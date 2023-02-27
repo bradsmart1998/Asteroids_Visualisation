@@ -114,8 +114,4 @@ We decided to create a pie chart to showcase this data as it would show the prop
 
 ![image](https://user-images.githubusercontent.com/114998403/221428650-7010d0f3-b90d-4531-9268-89e574ec3ee0.png)
 
-
 We have created this Pie chart using the Chart.js library in JavaScript
-
-
-
